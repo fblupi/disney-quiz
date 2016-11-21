@@ -11,11 +11,11 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/main_image_height"
         android:id="@+id/logo"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/header"
-        android:layout_marginBottom="@dimen/main_image_margin" />
+        android:layout_marginBottom="@dimen/main_image_margin"
+        android:layout_height="192dp" />
 
     <Button
         android:text="@string/new_game"
