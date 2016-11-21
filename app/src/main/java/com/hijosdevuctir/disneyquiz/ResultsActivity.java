@@ -1,17 +1,13 @@
-package com.hijosdevuctir.cinemaquiz;
+package com.hijosdevuctir.disneyquiz;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.BaseAdapter;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-
-import java.util.ArrayList;
 
 
 public class ResultsActivity extends Activity {

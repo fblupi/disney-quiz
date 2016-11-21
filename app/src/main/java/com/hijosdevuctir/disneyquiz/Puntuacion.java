@@ -1,6 +1,4 @@
-package com.hijosdevuctir.cinemaquiz;
-
-import java.util.Date;
+package com.hijosdevuctir.disneyquiz;
 
 public class Puntuacion {
 

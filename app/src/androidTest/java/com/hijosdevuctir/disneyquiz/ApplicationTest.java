@@ -1,4 +1,4 @@
-package com.hijosdevuctir.cinemaquiz;
+package com.hijosdevuctir.disneyquiz;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

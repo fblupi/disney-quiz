@@ -1,4 +1,4 @@
-package com.hijosdevuctir.cinemaquiz;
+package com.hijosdevuctir.disneyquiz;
 
 import android.app.Activity;
 import android.content.Context;
@@ -186,19 +186,15 @@ public class GameActivity extends Activity {
             switch(id) {
                 case 0:
                     option0.setBackgroundResource(R.drawable.btn_success);
-                    option0.setTextColor(getResources().getColor(R.color.buttonTextColorWhite));
                     break;
                 case 1:
                     option1.setBackgroundResource(R.drawable.btn_success);
-                    option1.setTextColor(getResources().getColor(R.color.buttonTextColorWhite));
                     break;
                 case 2:
                     option2.setBackgroundResource(R.drawable.btn_success);
-                    option2.setTextColor(getResources().getColor(R.color.buttonTextColorWhite));
                     break;
                 case 3:
                     option3.setBackgroundResource(R.drawable.btn_success);
-                    option3.setTextColor(getResources().getColor(R.color.buttonTextColorWhite));
                     break;
                 default:
                     break;
@@ -209,19 +205,15 @@ public class GameActivity extends Activity {
             switch(id) {
                 case 0:
                     option0.setBackgroundResource(R.drawable.btn_error);
-                    option0.setTextColor(getResources().getColor(R.color.buttonTextColorWhite));
                     break;
                 case 1:
                     option1.setBackgroundResource(R.drawable.btn_error);
-                    option1.setTextColor(getResources().getColor(R.color.buttonTextColorWhite));
                     break;
                 case 2:
                     option2.setBackgroundResource(R.drawable.btn_error);
-                    option2.setTextColor(getResources().getColor(R.color.buttonTextColorWhite));
                     break;
                 case 3:
                     option3.setBackgroundResource(R.drawable.btn_error);
-                    option3.setTextColor(getResources().getColor(R.color.buttonTextColorWhite));
                     break;
                 default:
                     break;
@@ -249,13 +241,9 @@ public class GameActivity extends Activity {
 
         // Se da el estilo de botón predeterminado a todos los botones
         option0.setBackgroundResource(R.drawable.btn_default);
-        option0.setTextColor(getResources().getColor(R.color.buttonTextColor));
         option1.setBackgroundResource(R.drawable.btn_default);
-        option1.setTextColor(getResources().getColor(R.color.buttonTextColor));
         option2.setBackgroundResource(R.drawable.btn_default);
-        option2.setTextColor(getResources().getColor(R.color.buttonTextColor));
         option3.setBackgroundResource(R.drawable.btn_default);
-        option3.setTextColor(getResources().getColor(R.color.buttonTextColor));
 
         // Se cargan la imagen y el RelativeLayout donde se encuentran los controles de la música
         ImageView image = (ImageView) findViewById(R.id.image);
@@ -276,7 +264,7 @@ public class GameActivity extends Activity {
         option2.setText(this.pregunta.getRespuesta(2));
         option3.setText(this.pregunta.getRespuesta(3));
 
-        nTiempo.setTextColor(getResources().getColor(R.color.buttonTextColor));
+        nTiempo.setTextColor(getResources().getColor(R.color.labelTextColor));
         // Se genera la cuenta atrás
         cuentaAtras();
     }

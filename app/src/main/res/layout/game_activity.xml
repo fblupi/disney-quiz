@@ -91,7 +91,7 @@
             android:id="@+id/nTime"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:textColor="@color/buttonTextColor"/>
+            android:textColor="@color/labelTextColor"/>
 
     </RelativeLayout>
 
@@ -129,7 +129,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/buttonTextColor"
+                android:textColor="@color/labelTextColor"
                 android:text="¿Cuál de estas cuatro respuestas es la correcta para esta pregunta?"
                 android:id="@+id/question"
                 android:layout_gravity="center_horizontal"/>
