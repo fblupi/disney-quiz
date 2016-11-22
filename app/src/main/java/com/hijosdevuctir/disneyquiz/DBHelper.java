@@ -15,7 +15,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private Context context;
     private static final String DATABASE_NAME = "preguntas.db";
-    private static final int DATABASE_VERSION = 6;
+    private static final int DATABASE_VERSION = 1;
 
     public static DBHelper getInstance(Context context) {
         if(instance == null) {
@@ -73,6 +73,28 @@ public class DBHelper extends SQLiteOpenHelper {
 
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = db.rawQuery("SELECT * FROM preguntas WHERE tema = '" + tema + "'",null);
+        if(c.moveToFirst()) {
+            do {
+                preguntas.add(new Pregunta(
+                        c.getString(2),
+                        c.getString(3),
+                        c.getString(4),
+                        c.getString(5),
+                        c.getString(6),
+                        Integer.parseInt(c.getString(7)),
+                        c.getString(8)));
+            } while (c.moveToNext());
+        }
+        db.close();
+
+        return preguntas;
+    }
+
+    public ArrayList<Pregunta> getAll() {
+        ArrayList<Pregunta> preguntas = new ArrayList<Pregunta>();
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT * FROM preguntas",null);
         if(c.moveToFirst()) {
             do {
                 preguntas.add(new Pregunta(

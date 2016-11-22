@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
         Button btNewExtremeGame = (Button) findViewById(R.id.new_extreme_game);
         Button btResults = (Button) findViewById(R.id.results);
 
-        Preguntas.setPreguntas(db.getAll("cine")); // Se obtienen todas las preguntas de cine de la BBDD
+        Preguntas.setPreguntas(db.getAll()); // Se obtienen todas las preguntas de cine de la BBDD
 
         btNewGame.setOnClickListener(new View.OnClickListener() {
             @Override
