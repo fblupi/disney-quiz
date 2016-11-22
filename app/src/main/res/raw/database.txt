@@ -49,3 +49,27 @@ normal;¿Cómo se llama este temible Leopardo?;Sabor;Leo;Scar;Manor;1;image013
 normal;¿A qué teme el Capitán Garfio?;Cocodrilo;Tiburón;Suricatas;Mariposas;0;null
 normal;¿De qué color son las emociones de asco en Del revés (Inside Out)?;Verdes;Amarillas;Moradas;Rojas;0;null
 normal;¿Cómo se llama este curioso personaje?;Bing Bong;Ding Dong;Ping Pong;Ring Rong;1;image014
+normal;¿Cómo se llama esta chica de la que Hércules se enamora?;Megara;Pena;Hera;Alcmena;1;image015
+normal;¿Cómo se llama este curioso personaje que acompaña a Hércules?;Filoctetes;Pánico;Laquesis;Atropo;1;image016
+hard;¿Cuál de estas no es una musa en Hércules?;Alcmena;Caliope;Melpomene;Thalia;0;null
+easy;¿Quién es el antagonista en Hércules?;Hades;Zeus;Nesso;Caronte;0;null
+easy;¿Cómo se llama el candelabro de La bella y la bestia?;Lumière;Maurice;Candelabre;Roland;0;null
+easy;¿Cómo se llama el reloj de La bella y la bestia?;Ding-Dong;Montre;Horloge;Pendule;0;null
+normal;¿Cómo se llama el plumero de La bella y la bestia?;Fifí;Fliflí;Fifú;Fliflú;0;null
+easy;¿Quién es el antagonista de La bella y la bestia?;Gastón;Maurice;LeFou;Roland;0;null
+easy;¿De qué color es el genio de Aladdín?;Azul;Morado;Verde;Rojo;0;null
+normal;¿De qué color es el chaleco de Aladdín?;Morado;Azul;Verde;Rojo;0;null
+normal;¿Cómo se llama este mono?;Abu;Iago;Rajah;Jafar;1;image017
+easy;¿Cómo se llama la chica de la que se enamora Aladdín?;Jasmín;Azahara;Sherezade;Arrayán;0;null
+normal;¿De qué color es el malvado loro de Aladdín?;Rojo;Morado;Azul;Verde;0;null
+easy;¿De qué color es el pelo de La sirenita?;Rojo;Naranja;Verde;Morado;0;null
+easy;¿De qué color es el pelo de Blancanieves?;Negro;Castaño;Rubio;Es calva;0;null
+normal;¿De qué color es el vestido de la malvada reina de Blancanieves?;Morado;Negro;Rojo;Azul;0;null
+normal;¿Cómo se llama este enanito de Blancanieves?;Mudito;Mocoso;Tímido;Feliz;1;image018
+easy;¿De qué color es el pelo de Alegría de Del revés (Inside Out)?;Azul;Amarillo;Morado;Verde;0;null
+normal;¿Cómo se llama la protagonista de Del revés (Inside Out)?;Riley;Curry;Emma;Stacy;0;null
+normal;¿Cómo se llama este dragón?;Mushu;Chi Fu;Min Fu;Mishu;1;image019
+normal;¿Cómo se llama este curioso mapache?;Meeko;Flit;Percy;Ratcliffe;1;image020
+normal;¿Cómo se llama el padre de Pocahontas?;Powhatan;Kocoum;Nakoma;Topanga;0;null
+normal;¿De qué color es el pelo de John Smith de Pocahontas?;Rubio;Castaño;Negro;Pelirrojo;0;null
+easy;¿Qué animal es Timón de El rey león?;Suricato;Zarigüella;Ardilla;Lemur;0;null
